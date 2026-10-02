@@ -1,5 +1,5 @@
-x1,y1,x2,y2 = map(int,input().split())
-if abs(x2-x1)== 1 or abs(y2-y1)== 1:
-    print("YES")
-else:
-    print("NO")
+a = int(input())
+b = int(input())
+e = a**2 + b**2
+from math import sqrt
+print(sqrt(e))
